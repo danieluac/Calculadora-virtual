@@ -1,0 +1,108 @@
+
+body
+{
+	margin-top: 100px;
+	/* background-color: rgba(71,183,9,.15); */
+	background: url("../potency e Multiply, no signal.PNG");		
+}
+form[name=Calculadora]
+{
+	width: 32%;
+	min-height: 300px;
+	padding: 1.5%;
+	margin: 0px auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px 1px #aaa;
+	background-color: #fff;
+}
+form[name=Calculadora]
+> input[id=tela]
+{
+	width: 96%;
+	height: 50px;
+	border-radius: 5px;
+	border:1px solid #aaa;
+	font-size: 25px;
+	text-align: right;
+	padding:2px 2%;
+	font-weight: bolder;
+	margin-bottom: 3%;
+	color:#fff;
+	cursor: inherit;
+	background-color: rgba(71,183,9,.5) !important;
+}
+.line-1
+{
+	width: 80%;
+	float: left;
+	height: auto;	
+}
+.line-1 > input
+{
+	width: 30%;
+	height: 40px;
+	background-color: #fff;
+	border-radius: 4px;	
+	border: 1px solid rgba(71,183,9,.5);	
+	padding: 2%;
+	margin:1%;
+	font-weight: bolder;
+	font-size: 16px;  
+	cursor: pointer;
+	color: rgba(71,183,9,1);
+}
+.line-1 > input:hover,
+.line-2 > input:hover
+{
+	color: rgba(71,183,9,.7);
+	box-shadow:0px 1px 1px 1px rgba(71,183,9,.3);
+}
+.line-2
+{
+	width: 20%;
+	float: right;
+	height: auto;	
+}
+.line-2 > input
+{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,.05);
+	border-radius: 4px;	
+	border: 1px solid rgba(71,183,9,.5);	
+	padding: 2%;
+	margin:4% 1%;
+	font-weight: bolder;
+	font-size: 16px; 
+	cursor: pointer;
+}
+.b_clr
+{
+	background-color: rgba(71,183,9,.7) !important;
+	color: #fff !important;
+}
+.b_clr-1
+{
+	background-color: rgba(71,183,9,1) !important;
+	color: #fff !important;
+}
+
+@media screen and (max-width: 950px)
+{
+form[name=Calculadora]
+{
+	width: 82%;
+	min-height: 325px;
+}
+
+}
+
+@media screen and (max-width: 350px)
+{
+form[name=Calculadora]
+{
+	width: 99%;
+	min-height: 300px
+}
+
+}
